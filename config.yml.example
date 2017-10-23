@@ -1,0 +1,17 @@
+users:
+  - name: tom
+    password: meh
+
+  - name: filecollector
+    keys:
+      - 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPKeAS57nYRgcQSoSyxKqPyU7jcu+nc8darOw/wMSRDG filecollector@machine.somewhere.com'
+
+hostKeys:
+  ed25519: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACD2mfMgweCWGTq2QbeV/btOLNSt9emXUjVdwAhYwhi+BAAAAKAJSpukCUqb
+    pAAAAAtzc2gtZWQyNTUxOQAAACD2mfMgweCWGTq2QbeV/btOLNSt9emXUjVdwAhYwhi+BA
+    AAAEBpXu2VGubdpQIfv3gJGh2nLNSpwHkJJt6MRMa7KGq/l/aZ8yDB4JYZOrZBt5X9u04s
+    1K316ZdSNV3ACFjCGL4EAAAAGnNmdHAtbW9ja0B2ZWxvcGF5bWVudHMuY29tAQID
+    -----END OPENSSH PRIVATE KEY-----
